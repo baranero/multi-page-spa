@@ -1,5 +1,5 @@
-function ProductsPages() {
-  
+function ProductsPage() {
+  return <h1>The Products Page </h1>
 }
 
-export default ProductsPages
+export default ProductsPage
