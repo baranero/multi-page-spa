@@ -1,14 +1,14 @@
 import { Fragment } from "react"
-import { Outlet } from "react-router"
 import MainNavigation from "../components/MainNavigation"
 
-function Root() {
+function ErrorPage() {
   return <Fragment>
     <MainNavigation/>
     <main>
-      <Outlet/>
+      <h1>An error occurred!</h1>
+      <p>Could not find this page!</p>
     </main>
   </Fragment>
 }
 
-export default Root
+export default ErrorPage
