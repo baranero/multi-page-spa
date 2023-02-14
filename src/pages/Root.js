@@ -2,7 +2,7 @@ import { Fragment } from "react"
 import { Outlet } from "react-router"
 import MainNavigation from "../components/MainNavigation"
 
-function Root() {
+function RootLayout() {
   return <Fragment>
     <MainNavigation/>
     <main>
@@ -11,4 +11,4 @@ function Root() {
   </Fragment>
 }
 
-export default Root
+export default RootLayout
